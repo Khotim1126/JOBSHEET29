@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/NamaSiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Siswa"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/NisSiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIS Siswa"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/JkSiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/KelasSiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelas"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="5dp">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hapus"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
